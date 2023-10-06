@@ -43,6 +43,7 @@ public class Solution {
                     break;
                 default:
                     throw new IllegalArgumentException("Ungültige römische Ziffer: " + currentChar);
+                    //my eyes are hurting by seeing this 
             }
         }
 
