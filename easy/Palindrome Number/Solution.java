@@ -27,8 +27,5 @@ public static void main(String [] args){
         number = sc.nextInt();
         sc.close();
         System.out.println(Solution.isPalindrome(number));
-
-
-
-}
+    }
 }
