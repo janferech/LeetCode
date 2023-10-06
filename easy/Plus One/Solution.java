@@ -9,7 +9,7 @@ class Solution {
             digits[i] = sum % 10;
             carry = sum / 10;
         }
-        
+
         if (carry > 0) {
             int[] result = new int[n + 1];
             result[0] = carry;
